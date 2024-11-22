@@ -1,0 +1,88 @@
+body {
+    background-color: #ECE5F0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #59114D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #581167; /* Cor do texto quando passar o mouse (tom de vermelho) */
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.9; /* Compacta o espaçamento entre as linhas */
+    margin-bottom: 5px; /* Diminui o espaço entre os parágrafos */
+    text-align:center; /* Alinha o texto de forma justificada */
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espaço entre os itens */
+    margin: 20px 0;
+}
+
+section a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #59114D; /* Deixa o texto preto */
+    text-align: center; /* Centraliza o texto */
+    width: 600px; /* Largura de cada item */
+}
+
+.borda-foto {
+    border: 5px solid ; /* Borda preta */
+    border-radius: 10px; /* Cantos arredondados */
+    width: 100%; /* Imagem ocupa toda a largura do item */
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+section a p {
+    background-color: #f9f9f9; /* Fundo para o texto */
+    padding: 10px; /* Espaço interno do texto */
+    border: 2px solid #ccc; /* Borda para o texto */
+    border-radius: 5px; /* Cantos arredondados no texto */
+    margin-top: -5px; /* Ajusta o espaço entre a imagem e o texto */
+}
+
+
+footer {
+    background-color: #59114D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
